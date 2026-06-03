@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'New Rodin Pro';
+  src: url('fonts/FOT-NewRodin Pro EB.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Rodin Pro';
+  src: url('fonts/FOT-Rodin Pro DB.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Skip Std B';
+  src: url('fonts/skip std b.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+.display-6 {
+  font-family: 'New Rodin Pro';
+  color: black;
+}
+
+.fs-2 {
+  font-family: 'Rodin Pro';
+  color: black;
+}
+
+.fs-3 {
+  font-family: 'Skip Std B';
+  color: black;
+}
+
+.fs-5 {
+  font-family: 'Skip Std B';
+}
+
+.fs-6 {
+  font-family: 'Rodin Pro';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#history {
+  overflow-y: auto;
+}
+
+#city {
+  font-size: clamp(1rem, 3.5vw, 2.5rem);
+  word-break: break-word;
+}
